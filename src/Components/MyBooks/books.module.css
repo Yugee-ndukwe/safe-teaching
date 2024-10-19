@@ -1,0 +1,17 @@
+.card{
+    width: 249px;
+    height: 284px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.cardText{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.listToggler ul li{
+    list-style: none;
+}

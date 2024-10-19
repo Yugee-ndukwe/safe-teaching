@@ -1,11 +1,5 @@
 .config{
-    width: 1131px;
-    height: 591px;
-    top: 177px;
-    left: 274px;
-    gap: 0px;
-    border-radius: 16px 0px 0px 0px;
-    opacity: 0px;
+   
     background: #F6F6F8;
 
 
@@ -26,6 +20,13 @@
 } */
 
 .setUser{
+    width: 1131px;
+    height: 591px;
+    top: 177px;
+    left: 274px;
+    gap: 0px;
+    border-radius: 16px 0px 0px 0px;
+    opacity: 0px;
     
    
 
@@ -126,6 +127,7 @@
 .presetContainer{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .preset{

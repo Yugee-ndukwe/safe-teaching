@@ -1,0 +1,134 @@
+.resources{
+    background: #F6F6F8;
+    margin: 175px 256px 24px 24px;
+
+}
+
+.page{
+    width: Hug (206px)px;
+    height: Hug (22px)px;
+    top: 134px;
+    left: 303px;
+    gap: 8px;
+    opacity: 0px;
+
+}
+.page span{
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.79px;
+    text-align: left;
+    color: #4B4E61;
+   
+   
+
+}
+.page span img{
+    width: 20px;
+    height: 20px;
+    gap: 0px;
+    opacity: 0px;
+    padding: 1px;
+
+}
+
+.resTitle{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnContainer{
+    display: flex;
+}
+
+.resourceBtn{
+    width: Hug (196px)px;
+    height: Hug (50px)px;
+    top: 27px;
+    left: 689px;
+    gap: 16px;
+    opacity: 0px;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.07px;
+    text-align: left;
+    padding: 16px;
+    display: flex;
+    background: #ffffff;
+
+
+
+}
+
+.resourceBtn img{
+    width: 20px;
+    height: 20px;
+    gap: 0px;
+    opacity: 0px;
+    padding: 16px 14px;
+
+}
+
+.add button{
+    width: Fixed (194px)px;
+    height: Fixed (46px)px;
+    top: 29px;
+    left: 911px;
+    padding: 5px 22.5px;
+    gap: 10px;
+    border-radius: 8px 0px 0px 0px;
+    opacity: 0px;
+    background: #2E3192;
+    color: #FFFFFF;
+    text-transform: capitalize;
+
+
+
+}
+
+.add button:hover{
+    animation: forwards 2s ease;
+}
+
+.upload{
+    margin: 185px 231.2px 404px 477px;
+    /* width: 250px;
+    height: 174.8px;
+    top: 185px;
+    left: 404px;
+    gap: 0px;
+    opacity: 0px; */
+    border: 2px solid blue;
+
+}
+
+.upload img{
+    /* width: 118.07px;
+    height: 174.8px;
+    left: 62.2px;
+    gap: 0px;
+    opacity: 0px; */
+    padding: 0 62.6px 0 69.73px ;
+    border: 2px solid red;
+
+}
+
+.upload p{
+    font-family: Sora;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25.2px;
+    text-align: justified;
+    /* width: 266px;
+    height: 26px;
+    top: 380px;
+    left: 395px;
+    gap: 0px;
+    opacity: 0px; */
+    color: #5C5C5C;
+   
+
+
+}
