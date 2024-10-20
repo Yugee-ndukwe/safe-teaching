@@ -4,17 +4,20 @@ import IMG2 from '../../Assets/group2.png'
 import IMG3 from '../../Assets/group1.png'
 import IMG4 from '../../Assets/Polygon1.png';
 import IMG5 from '../../Assets/group5.png';
-
-
+import IMG6 from '../../Assets/Vector.png';
 import IMG from '../../Assets/imgleft.png'
+import { useNavigate } from 'react-router-dom';
 // import IMG4 from '../../Assets/'
 
 
 
 export default function Box(){
+    
+    // const navigate = useNavigate();
     return(
         <>
-            <div className={`${classes.title}`}>
+           <div className={`${classes.container}`}>
+           <div className={`${classes.title}`}>
                 <h1>Set Username</h1>
                 <p>This is your marketplace where you can acccess all your information and data.</p>
             </div>
@@ -39,7 +42,7 @@ export default function Box(){
                     </div>
                     <div className={`${classes.res}`}>
                         <p >Total Earnings</p>
-                        <p> &#x24;0</p>
+                        <p> $0</p>
                     </div>
                     <div className={`${classes.side}`}>
                         <img src={IMG} alt="" />
@@ -50,7 +53,7 @@ export default function Box(){
                <div className={`${classes.firstRow}`}>
                <div className={`${classes.third}`}>
                     <img src={IMG1} alt="img" />
-                    <div className={`${classes}`}>
+                    <div className={`${classes.res}`}>
                         <p >Balance</p>
                         <p>$0</p>
                     </div>
@@ -60,18 +63,21 @@ export default function Box(){
                 </div>
                 <div className={`${classes.fourth}`}>
                     <img src={IMG4} alt="img" />
-                    <div className={`${classes}`}>
+                    <div className={`${classes.res}`}>
                     <p >Learn how to earn</p>
                     </div>
                     <div className={`${classes.side}`}>
                         <img src={IMG} alt="" />
+                    </div>
+                    <div className={classes.additionalImage}>
+                        <img src={IMG6} alt="new image" />
                     </div>
                 </div>
                </div>
                 <div className={`${classes.firstRow}`}>
                 <div className={`${classes.fifth}`}>
                     <img src={IMG5} alt="img" />
-                    <div className={`${classes}`}>
+                    <div className={`${classes.res}`}>
                     <p >Configuration</p>
                     </div>
                     <div className={`${classes.side}`}>
@@ -81,6 +87,7 @@ export default function Box(){
 
                 </div>
             </div>
+           </div>
         </>
     )
 }
