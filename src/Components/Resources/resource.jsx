@@ -7,19 +7,25 @@ export default function Resource(){
     return(
         <>
             <div className={classes.resources}>
-                <div className={`${classes.page}`}>
+                {/* <div className={`${classes.page}`}>
                     <span>
                         My store
                         <img src={RIGHT} alt="icon" />
                         My resources
                     </span>
-                </div>
+                </div> */}
                 <div className={`${classes.resTitle}`}>
+                    <div className={`${classes.resText}`}>
                     <h1>My resources</h1>
+                    </div>
                     <div className={`${classes.btnContainer}`}>
                         <div className={`${classes.resourceBtn}`}>
-                            <p>Sort by: Types</p>
-                            <img src={DROP} alt="drop" />
+                            <button>
+                                Sort by: Types
+                                <img src={DROP} alt="drop" />
+                            </button>
+                            <p></p>
+                            
                         </div>
                         <div className={`${classes.add}`}>
                             <button>add new resoutces</button>

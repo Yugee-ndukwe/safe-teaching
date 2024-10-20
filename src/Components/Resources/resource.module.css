@@ -1,6 +1,7 @@
 .resources{
     background: #F6F6F8;
-    margin: 175px 256px 24px 24px;
+    height: 100%;
+   
 
 }
 
@@ -36,83 +37,68 @@
 .resTitle{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.resText{
+    text-transform: capitalize;
+    font-family: Sora;
+    font-size: 20px;
+    font-weight: 600;
+    
+
 }
 
 .btnContainer{
     display: flex;
+    gap: 20px;
+    padding: 10px;
+    
+    /* margin: 5px; */
+
 }
 
-.resourceBtn{
-    width: Hug (196px)px;
-    height: Hug (50px)px;
-    top: 27px;
-    left: 689px;
-    gap: 16px;
-    opacity: 0px;
+
+/* styles for the button with a white background */
+.resourceBtn button {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    width: 194px;
+    height: 46px;
+    border-radius: 8px;
+    background: #FFFFFF;
+    border: 0;
+    outline: 0;
+    padding: 0 10px; 
     font-family: Open Sans;
     font-size: 14px;
     font-weight: 400;
-    line-height: 19.07px;
-    text-align: left;
-    padding: 16px;
-    display: flex;
-    background: #ffffff;
-
-
-
+    text-transform: capitalize;
 }
 
-.resourceBtn img{
+.resourceBtn img {
     width: 20px;
     height: 20px;
-    gap: 0px;
-    opacity: 0px;
-    padding: 16px 14px;
-
+    padding-left: 8px; 
 }
 
+/* styles for the blue button */
 .add button{
-    width: Fixed (194px)px;
-    height: Fixed (46px)px;
-    top: 29px;
-    left: 911px;
-    padding: 5px 22.5px;
-    gap: 10px;
-    border-radius: 8px 0px 0px 0px;
-    opacity: 0px;
+    width: 194px;
+    height: 46px;
+    border-radius: 8px;
     background: #2E3192;
     color: #FFFFFF;
     text-transform: capitalize;
 
 
-
 }
 
-.add button:hover{
-    animation: forwards 2s ease;
-}
-
-.upload{
-    margin: 185px 231.2px 404px 477px;
-    /* width: 250px;
-    height: 174.8px;
-    top: 185px;
-    left: 404px;
-    gap: 0px;
-    opacity: 0px; */
-    border: 2px solid blue;
-
-}
 
 .upload img{
-    /* width: 118.07px;
-    height: 174.8px;
-    left: 62.2px;
-    gap: 0px;
-    opacity: 0px; */
     padding: 0 62.6px 0 69.73px ;
-    border: 2px solid red;
-
 }
 
 .upload p{
@@ -131,4 +117,18 @@
    
 
 
+}
+
+@media(max-width: 576px) {
+    .resTitle{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .btnContainer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
