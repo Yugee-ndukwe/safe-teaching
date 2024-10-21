@@ -7,6 +7,7 @@ import MyBooks from './Components/MyBooks/books';
 import Resource from './Components/Resources/resource';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import TotalEarnigs from './Components/TotalEarnings/totalEarnings';
+import Transactions from './Components/Transactions/transaction';
 
 function App() {
   return (
@@ -20,6 +21,8 @@ function App() {
               <Route path='/bookDetails' element= {<BookDetails/>}/>
               <Route path='/courses' element={<MyCourses/>}/>
               <Route path='/totalEarnings' element={<TotalEarnigs/>}/>
+              <Route path='/transaction' element={<Transactions/>}/>
+
           </Routes>
       </BrowserRouter>
       

@@ -1,0 +1,227 @@
+.transactionPage{
+    width: 100%;
+    height: 100%;
+    background: #D5D6E9;
+
+}
+
+.transactionHistory{
+    background: #FFFFFF;
+    width: 80%;
+    padding: 20px;
+    margin: auto;
+
+}
+
+.balance{
+    font-family: Sora;
+    font-size: 24px;
+    font-weight: 400;
+    color:  #ACACAC;
+   
+    /* line-height: 30.24px; */
+    /* text-align: left; */
+
+    
+
+}
+
+.transactionHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.transactionLogo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.transactionLogo img{
+    width: 42.75px;
+    height: 39.19px;
+    margin-top: 30px;
+   
+}
+.logo{
+    background: #E9EDFF;
+    border-radius: 50px;
+    width: 108px;
+    height: 108px;
+   
+
+}
+
+.transactionLogo h5{
+    font-family: Sora;
+    font-size: 48px;
+    font-weight: 600;
+    /* line-height: 60.48px; */
+    /* text-align: left; */
+
+}
+
+.withdrawBtn button{
+    width: 253px;
+    height: 63px;
+    border: 0;
+    outline: 0;
+    background: #2E3192;
+    color: #FFFFFF;
+
+    
+    /* padding: 20px 114px 20px 114px; */
+    
+    border-radius: 12px;
+    font-family: Sora;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+
+  
+
+}
+
+.history p{
+    font-family: Sora;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30.24px;
+    text-align: left;
+
+}
+
+.myTransactions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #D9D9D9;
+    padding: 22px 41px 22px 29px;
+    border-radius: 16px ;
+    border: 1px 0px 0px 0px;
+    margin: 10px;
+  
+    
+
+}
+
+.spent{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.spent img{
+    width: 17.7px;
+    height: 19.19px;
+   margin-top: 25px;
+
+
+
+
+}
+
+.spentLogo{
+    background: #E9EDFF;
+    width: 68px;
+    height: 68px;
+    border-radius: 50px;
+
+}
+.amount{
+    font-family: Sora;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40.32px;
+    /* text-align: left; */
+
+    
+}
+.date span{
+    font-family: Sora;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 25.2px;
+    text-align: left;
+    color: #7E7E7E;
+    
+
+}
+@media(min-width: 577px) and (max-width: 850px) {
+
+    .transactionLogo h5{
+        font-size: 38px;
+     
+        /* line-height: 60.48px; */
+        /* text-align: left; */
+    
+    }
+
+}
+
+@media(max-width: 576px) {
+    .transactionHistory{
+        width: 80%;
+    }
+
+    .transactionHeader{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .transactionLogo img{
+        width: 32.75px;
+        height: 29.19px;
+        margin-top: 30px;
+       
+    }
+
+    .logo{
+        /* background: #E9EDFF;
+        border-radius: 50px; */
+        width: 88px;
+        height: 88px;
+       
+    
+    }
+
+    .transactionLogo h5{
+        font-size: 38px;
+     
+        /* line-height: 60.48px; */
+        /* text-align: left; */
+    
+    }
+
+    .balance{
+        /* font-family: Sora; */
+        font-size: 18px;
+        /* font-weight: 400;
+        color:  #ACACAC; */
+       
+        /* line-height: 30.24px; */
+        /* text-align: left; */
+    
+        
+    
+    }
+
+    .myTransactions{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .amount{
+        /* font-family: Sora;
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 40.32px; */
+        /* text-align: left; */
+        margin-left: 100px;
+    
+        
+    }
+
+    
+}

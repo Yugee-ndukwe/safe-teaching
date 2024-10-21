@@ -31,7 +31,7 @@ export default function BookDetails() {
                 </div>
                 <div className={`${classes.detailBtn}`}>
                     <button className={`${classes.backBtn}`}>
-                        <img src={image.ARROW_RIGHT} alt="" />
+                        <img src={image.ARROW_LEFT} alt="" />
                         Back
                     </button>
                     <button className={`${classes.editBtn}`}>Edit</button>

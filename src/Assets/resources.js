@@ -13,6 +13,8 @@ import TOTAL_CHART from '../Assets/Total_Earn_Chart.png';
 import ARROW_RIGHT from '../Assets/arrow-right.png';
 import TOTAL_EARN_LOGO from '../Assets/Total_Earn_logo.png';
 import ARROW_DOWN from '../Assets/arrow-down.png';
+import DOUBLE_ARROW from '../Assets/DOUBLE_ARROW.png';
+import TRANSACT_LOGO from '../Assets/TRANSACT_LOGO.png';
 
 export default {
     GET_START,
@@ -30,5 +32,7 @@ export default {
     TOTAL_EARN_LOGO,
     ARROW_DOWN,
     ARROW_RIGHT,
+    TRANSACT_LOGO,
+    DOUBLE_ARROW
 
 };
