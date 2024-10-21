@@ -170,6 +170,11 @@
     color: #fff;
 }
 
+.delete{
+    color: #FF0606;
+    
+}
+
 @media (max-width: 565px) {
     .booksContainer{
         width: 100%;
