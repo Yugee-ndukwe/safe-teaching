@@ -15,6 +15,22 @@ import TOTAL_EARN_LOGO from '../Assets/Total_Earn_logo.png';
 import ARROW_DOWN from '../Assets/arrow-down.png';
 import DOUBLE_ARROW from '../Assets/DOUBLE_ARROW.png';
 import TRANSACT_LOGO from '../Assets/TRANSACT_LOGO.png';
+import HISTORY_BOOK from '../Assets/HISTORY_BOOK.png';
+import THE_SUN_NOUVEL from '../Assets/THE_SUN_NOUVEL.png';
+import B_SCIENCE from '../Assets/B_SCIENCE.png';
+import LIT_ENG from '../Assets/LIT_ENG.png';
+import LIT_PRACTICE from '../Assets/LIT_PRACTICE.png';
+import THINK_OUT_NOUVEL from '../Assets/THINK_OUT_NOUVEL.png';
+import ENG_GRAM from '../Assets/ENG_GRAM.png';
+import INDICES_LOG from '../Assets/INDICES_LOG.png';
+import BOOK_DOTS_TOGGLER from '../Assets//BOOK_DOTS_TOGGLER.png';
+import PREVIEW from '../Assets/preview.png';
+import DELETE from '../Assets/trash.png';
+import EDIT_ICON from '../Assets/edit-icon.png';
+import PUBLISH from '../Assets/publish.png';
+import UNPUBLISH from '../Assets/unpublish.png';
+
+
 
 export default {
     GET_START,
@@ -33,6 +49,20 @@ export default {
     ARROW_DOWN,
     ARROW_RIGHT,
     TRANSACT_LOGO,
-    DOUBLE_ARROW
+    DOUBLE_ARROW,
+    HISTORY_BOOK,
+    LIT_ENG,
+    LIT_PRACTICE,
+    B_SCIENCE,
+    THE_SUN_NOUVEL,
+    THINK_OUT_NOUVEL,
+    ENG_GRAM,
+    INDICES_LOG,
+    BOOK_DOTS_TOGGLER,
+    EDIT_ICON,
+    DELETE,
+    PREVIEW,
+    PUBLISH,
+    UNPUBLISH
 
 };

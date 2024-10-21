@@ -35,9 +35,27 @@
     justify-content: space-between;
     align-items: center;
     padding: 3.5px 15px;
+}
+
+.bookDate{
+    color: #4B4E61;
     font-family: Open Sans;
     font-size: 14px;
     font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+
+
+}
+
+.bookPrice{
+    font-family: Sora;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17.64px;
+    text-align: right;
+    color: #2E3192;
+
 }
 
 .toggler {
@@ -84,7 +102,12 @@
     padding: 5px 10px;
     display: flex;
     align-items: center;
-    font-size: 14px;
+    font-family: Sora;
+    font-size: 12px;
+    font-weight: 400;
+    /* line-height: 36px;
+    text-align: left; */
+
     cursor: pointer;
 }
 

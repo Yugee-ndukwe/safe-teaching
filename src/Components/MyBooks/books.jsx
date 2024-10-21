@@ -1,20 +1,8 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import classes from './books.module.css';
-import BOOK1 from '../../Assets/Image.png';
-import BOOK2 from '../../Assets/image2.png';
-import BOOK3 from '../../Assets/image3.png';
-import BOOK4 from '../../Assets/image4.png';
-import BOOK5 from '../../Assets/image5.png';
-import BOOK6 from '../../Assets/image6.png';
-import BOOK7 from '../../Assets/image7.png';
-import BOOK8 from '../../Assets/image8.png';
-import DOTS from '../../Assets/3dots.png';
-import EDIT from '../../Assets/edit-icon.png';
-import PREVIEW from '../../Assets/preview.png';
-import PUBLISH from '../../Assets/publish.png';
-import UNPUBLISH from '../../Assets/unpublish.png';
-import DELETE from '../../Assets/trash.png';
+import images from '../../Assets/resources'
+
 
 export default function MyBooks() {
     const [clickedIndex, setClickedIndex] = useState(null);
@@ -44,14 +32,14 @@ export default function MyBooks() {
     };
 
     const books = [
-        { title: "History of the world for senior secondary schools", date: "September 9, 2024", price: "$360", image: BOOK1 },
-        { title: "Novel: The sun with iterated idiomatic expressions", date: "September 9, 2024", price: "$360", image: BOOK2 },
-        { title: "Full Literature course with practice questions", date: "September 9, 2024", price: "$360", image: BOOK3 },
-        { title: "Indices & Logarithms with worked examples", date: "September 9, 2024", price: "$360", image: BOOK4 },
-        { title: "Grammar & composition for classes 1-3", date: "September 9, 2024", price: "$360", image: BOOK5 },
-        { title: "Nouvel: Think outside the box volume 1", date: "September 9, 2024", price: "$360", image: BOOK6 },
-        { title: "Literature in English for junior secondary school 1", date: "September 9, 2024", price: "$360", image: BOOK7 },
-        { title: "Basic science for junior secondary school 3", date: "September 9, 2024", price: "$360", image: BOOK8 },
+        { title: "History of the world for senior secondary schools", date: "September 9, 2024", price: "$360", image: images.HISTORY_BOOK },
+        { title: "Novel: The sun with iterated idiomatic expressions", date: "September 9, 2024", price: "$360", image: images.THE_SUN_NOUVEL },
+        { title: "Full Literature course with practice questions", date: "September 9, 2024", price: "$360", image: images.LIT_PRACTICE },
+        { title: "Indices & Logarithms with worked examples", date: "September 9, 2024", price: "$360", image: images.INDICES_LOG },
+        { title: "Grammar & composition for classes 1-3", date: "September 9, 2024", price: "$360", image: images.ENG_GRAM },
+        { title: "Nouvel: Think outside the box volume 1", date: "September 9, 2024", price: "$360", image: images.THINK_OUT_NOUVEL },
+        { title: "Literature in English for junior secondary school 1", date: "September 9, 2024", price: "$360", image: images.LIT_ENG },
+        { title: "Basic science for junior secondary school 3", date: "September 9, 2024", price: "$360", image: images.B_SCIENCE },
     ];
 
     const openBookDetails = (book) => {
@@ -61,30 +49,30 @@ export default function MyBooks() {
     return (
         <div className={`${classes.booksContainer}`}>
             {books.map((book, index) => (
-                <div key={index} className={`${classes.card}`} onClick={() => openBookDetails(book)}>
+                <div key={index} className={`${classes.card}`}>
                     <div className={`${classes.cardBody}`}>
-                        <div className={`${classes.cardImage}`}>
+                        <div className={`${classes.cardImage}`}  onClick={() => openBookDetails(book)}>
                             <img src={book.image} alt="book" />
                         </div>
                         <div className={`${classes.cardTitle}`}>
                             <h4>{book.title}</h4>
                             <div className={`${classes.cardText}`}>
-                                <p>{book.date}</p>
-                                <p>{book.price}</p>
+                                <p className={`${classes.bookDate}`}>{book.date}</p>
+                                <p className={`${classes.bookPrice}`}>{book.price}</p>
                             </div>
                             <div className={`${classes.toggler}`}>
                                 <span className={`${classes.toggleIcon}`} onClick={() => handleClick(index)}>
-                                    <img src={DOTS} alt="icon" />
+                                    <img src={images.BOOK_DOTS_TOGGLER} alt="icon" />
                                 </span>
                                 {clickedIndex === index && (
                                     <div className={`${classes.listToggler}`}>
                                         <ul>
-                                            <li><img src={EDIT} alt="icon" /> Edit</li>
-                                            <li><img src={PREVIEW} alt="icon" />Preview</li>
-                                            <li><img src={PUBLISH} alt="icon" />Publish</li>
-                                            <li><img src={UNPUBLISH} alt="icon" />Unpublish</li>
+                                            <li><img src={images.EDIT_ICON} alt="icon" /> Edit</li>
+                                            <li><img src={images.PREVIEW} alt="icon" />Preview</li>
+                                            <li><img src={images.PUBLISH} alt="icon" />Publish</li>
+                                            <li><img src={images.UNPUBLISH} alt="icon" />Unpublish</li>
                                             <li className={`${classes.delete}`} onClick={() => handleDelete(book)}>
-                                                <img src={DELETE} alt="icon" /> Delete
+                                                <img src={images.DELETE} alt="icon" /> Delete
                                             </li>
                                         </ul>
                                     </div>
