@@ -14,7 +14,7 @@
     height: 284px;
     margin: 0 5px 40px 10px;
     padding: 12px;
-    border-radius: 16px 0px 0px 0px;
+    border-radius: 16px;
     position: relative; 
 }
 
@@ -97,20 +97,6 @@
 
 }
 
-/* .modal{
-    width: 724.76px;
-    height: 378px;
-    gap: 0px;
-    border-radius: 49.98px 0px 0px 0px;
-    opacity: 0px;
-    background: #FAFAFB;
-    position: absolute;
-    z-index: 2;
-    top: 0;
-    left: 0;
-
-
-} */
 
 .modal {
     position: fixed; /* Fix it to the viewport */

@@ -1,7 +1,9 @@
 import classes from './courses.module.css';
 import IMAGES from '../../Assets/resources'
-export default function MyCourses(){
 
+
+export default function MyCourses(){
+    console.log(IMAGES)
    
     const course = [
         {
@@ -57,8 +59,10 @@ export default function MyCourses(){
     
     return(
         <>
-            <div className={classes.courses}>
-                {course.map((course, i) => (
+            <div className={`${classes.courseList}`}>
+                    <h2>List of courses</h2>
+                    <div className={classes.courses}>
+                  {course.map((course, i) => (
                     <div key={i} className={`${classes.courseCard}`}>
                         <div className={`${classes.courseBody}`}>
                             <div className={`${classes.courseImage}`}>
@@ -66,8 +70,8 @@ export default function MyCourses(){
                             </div>
                             <div className={`${classes.courseTitle}`}>
                                 <h3>{course.title}</h3>
-                                <div>
-                                    <img src="" alt="" />
+                                <div className={`${classes.courseTime}`}>
+                                    <img src={IMAGES.COURSE_ICON} alt="" />
                                     <p>{course.text}</p>
                                 </div>
                             </div>
@@ -75,6 +79,8 @@ export default function MyCourses(){
                     </div>
                 ))}
             </div>
+         </div>
+           
         </>
     )
 }

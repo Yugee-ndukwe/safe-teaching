@@ -20,6 +20,10 @@ export default function BookDetails() {
                 <div>
                     <h3>{book.title}</h3>
                     <p>Amet minim mollit non deserunt ullamco est sit dolor do amet sint. Velit  sunt nostrud amet.Amet minim mollit non deserunt ullamco est sit dolor do amet sint. Velit  sunt nostrud amet.Amet minim mollit non deserunt ullamco</p>
+                    <div className={`${classes.rating}`}>
+                    <img src={image.STAR} alt="" />
+                    <span>(45)</span>
+                    </div>
                     <h5 className={`${classes.price}`}>$350 <small>.00</small></h5>
                     <p ><strong>Age Ranges:</strong> <span className={`${classes.ageRange}`}>0-8 12-16</span></p>
                     <p><strong>Subject:</strong> <span className={`${classes.subject}`}>Government & Politics</span></p>
