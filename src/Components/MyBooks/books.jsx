@@ -11,7 +11,7 @@ import BOOK7 from '../../Assets/image7.png';
 import BOOK8 from '../../Assets/image8.png';
 import DOTS from '../../Assets/3dots.png';
 import EDIT from '../../Assets/edit-icon.png';
-import PREVIEW from '../../Assets/Group.png';
+import PREVIEW from '../../Assets/preview.png';
 import PUBLISH from '../../Assets/publish.png';
 import UNPUBLISH from '../../Assets/unpublish.png';
 import DELETE from '../../Assets/trash.png';

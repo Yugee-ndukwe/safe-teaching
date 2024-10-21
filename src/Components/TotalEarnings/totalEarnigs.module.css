@@ -1,0 +1,112 @@
+.totalEarnigs {
+    width: 100%;
+    height: 100%;
+    background: #F6F6F8;
+}
+
+.pageTitle {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 20px;
+}
+
+.myEarnings {
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+.earningsHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px; /* Add padding to give some space */
+}
+
+.totalLogo {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Ensure there's a proper gap between logo and text */
+}
+
+.totalLogo h1 {
+    font-family: Sora;
+    font-size: 24px;
+    font-weight: 600;
+    /* line-height: 36px; */
+    text-align: left;
+    color: #2E3192;
+}
+
+.date {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Changed gap from % to px for consistency */
+}
+
+.date p {
+    font-family: Sora;
+    font-size: 24px;
+    font-weight: 400;
+    /* line-height: 36px; */
+    text-align: left;
+}
+
+.headerBtn {
+    margin-left: auto; /* Ensures it pushes the button to the far right */
+}
+
+.headerBtn button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 196px;
+    height: 50px;
+    background: #E9EDFF;
+    border: 0;
+    outline: 0;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.07px;
+    padding: 0 16px; /* Adjust padding for the button */
+    cursor: pointer;
+}
+
+.totalLogo img {
+    width: 24px;
+    height: 24px;
+    margin-right: 15px; /* Add margin to create space between image and text */
+}
+
+.chart {
+    width: 100%;
+    height: 338.3px;
+}
+
+.chart img{
+    width: 100%;
+}
+
+
+@media(max-width: 576px) {
+    .myEarnings{
+        width: 80%;
+    }
+    .earningsHeader{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .headerBtn {
+        margin-right: auto; /* Ensures it pushes the button to the far right */
+    }
+
+
+}
