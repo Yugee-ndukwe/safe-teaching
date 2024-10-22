@@ -12,7 +12,17 @@ export default function BookDetails() {
 
     return (
         <div className={`${classes.bookdetails}`}>
-           <div className={`${classes.detailContainer}`}>
+            <div className={`${classes.detailHeader}`}>
+               <div className={`${classes.pageTitle}`}>
+                <p>My store</p>
+                <img src={image.ARROW_RIGHT} alt="" />
+                <p>My Resources</p>
+                <img src={image.ARROW_RIGHT} alt="" />
+                <p>Preview</p>
+               </div>
+            </div>
+          <div>
+          <div className={`${classes.detailContainer}`}>
            <div className={`${classes.bookImg}`}>
                 <img src={book.image} alt={book.title} />
             </div>
@@ -38,6 +48,7 @@ export default function BookDetails() {
                 </div>
             </div>
            </div>
+          </div>
         </div>
     );
 }

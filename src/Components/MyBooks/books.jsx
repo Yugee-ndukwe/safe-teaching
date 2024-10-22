@@ -133,7 +133,7 @@ export default function MyBooks() {
                                                 <ul>
                                                     <li><img src={images.EDIT_ICON} alt="icon" /> Edit</li>
                                                     <li><img src={images.PREVIEW} alt="icon" /> Preview</li>
-                                                    <li><img src={images.PUBLISH} alt="icon" /> Publish</li>
+                                                    <li className={`${classes.preview}`}><img src={images.PUBLISH} alt="icon" /> Publish</li>
                                                     <li><img src={images.UNPUBLISH} alt="icon" /> Unpublish</li>
                                                     <li className={`${classes.delete}`} onClick={() => handleDelete(book)}>
                                                         <img src={images.DELETE} alt="icon" /> Delete
