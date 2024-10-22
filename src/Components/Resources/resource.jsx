@@ -1,7 +1,5 @@
 import classes from './resource.module.css';
-import DROP from '../../Assets/arrow-down.png';
-import UPLOAD from '../../Assets/undraw_not_found_re_bh2e 1.png';
-import RIGHT from '../../Assets/arrow-right.png';
+import images from '../../Assets/resources'
 
 export default function Resource(){
     return(
@@ -16,24 +14,24 @@ export default function Resource(){
                 </div> */}
                 <div className={`${classes.resTitle}`}>
                     <div className={`${classes.resText}`}>
-                    <h1>My resources</h1>
+                    <h3>My Resources</h3>
                     </div>
                     <div className={`${classes.btnContainer}`}>
                         <div className={`${classes.resourceBtn}`}>
                             <button>
                                 Sort by: Types
-                                <img src={DROP} alt="drop" />
+                                <img src={images.ARROW_DOWN} alt="drop" />
                             </button>
                             <p></p>
                             
                         </div>
                         <div className={`${classes.add}`}>
-                            <button>add new resoutces</button>
+                            <button>add new resources</button>
                         </div>
                     </div>
                 </div>
                 <div className={`${classes.upload}`}>
-                    <img src={UPLOAD} alt="img" />
+                    <img src={images.UPLOAD_RESOURCE} alt="img" />
                     <p>No resource uploaded yet</p>
                 </div>
             </div>

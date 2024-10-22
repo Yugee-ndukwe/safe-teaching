@@ -29,6 +29,18 @@ import DELETE from '../Assets/trash.png';
 import EDIT_ICON from '../Assets/edit-icon.png';
 import PUBLISH from '../Assets/publish.png';
 import UNPUBLISH from '../Assets/unpublish.png';
+import USER from '../Assets/user-icon.png';
+import UPLOAD_RESOURCE from '../Assets/UPLOAD_RESOURCE.png';
+import STORE_URL from '../Assets/STORE_URL.png';
+import TOTAL_EARNINGS from '../Assets/TOTAL-EARNINGS.png';
+import LEARN from '../Assets/LEARN.png';
+import CONFIGURATION from '../Assets/CONFIGURATION.png';
+import LEARN_TO_EARN from '../Assets/LEARN_TO_EARN.png';
+import DOUBLE_RIGHT_ARROW from '../Assets/DOUBLE_RIGHT_ARROW.png';
+import MY_RESOURCES from '../Assets/MY_RESOURCES.png';
+import BALANCE from '../Assets/BALANCE.png';
+
+
 
 
 
@@ -63,6 +75,17 @@ export default {
     DELETE,
     PREVIEW,
     PUBLISH,
-    UNPUBLISH
+    UNPUBLISH,
+    USER,
+    STORE_URL,
+    ARROW_DOWN,
+    UPLOAD_RESOURCE,
+    MY_RESOURCES,
+    LEARN,
+    DOUBLE_RIGHT_ARROW,
+    LEARN_TO_EARN,
+    TOTAL_EARNINGS,
+    CONFIGURATION,
+    BALANCE
 
 };

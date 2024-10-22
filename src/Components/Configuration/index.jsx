@@ -1,6 +1,5 @@
 import classes from './config.module.css';
-import USER from '../../Assets/user.png';
-import USER1 from '../../Assets/vector2.png';
+import images from '../../Assets/resources'
 
 
 export default function Configuration(){
@@ -11,12 +10,12 @@ export default function Configuration(){
                 <div className={`${classes.setUser}`}>
                    <div className={`${classes.configTab}`}>
                    <div className={`${classes.userIcon}`}>
-                        <img src={USER} alt="" />
+                        <img src={images.USER} alt="" />
                         <p>Set Username</p>
                     </div>
                     <div className={`${classes.content}`}>
                         <div className={`${classes.img2}`}>
-                        <img src={USER1} alt="" />
+                        <img src={images.STORE_URL} alt="" />
                         </div>
                         <p>Store Url</p>
                     </div>

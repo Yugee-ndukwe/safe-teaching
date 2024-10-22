@@ -1,17 +1,9 @@
 import classes from './box.module.css';
-import IMG1 from '../../Assets/group3.png'
-import IMG2 from '../../Assets/group2.png'
-import IMG3 from '../../Assets/group1.png'
-import IMG4 from '../../Assets/Polygon1.png';
-import IMG5 from '../../Assets/group5.png';
-import IMG6 from '../../Assets/Vector.png';
-import IMG from '../../Assets/imgleft.png'
-import { useNavigate } from 'react-router-dom';
-// import IMG4 from '../../Assets/'
+import images from '../../Assets/resources'
 
 
 
-export default function Box(){
+export default function box(){
     
     // const navigate = useNavigate();
     return(
@@ -26,62 +18,62 @@ export default function Box(){
                 <div className={`${classes.firstRow}`}>
                 <div className={`${classes.first}`}>
                     <div className={`${classes.image}`}>
-                       <img src={IMG3} alt="img" />
+                       <img src={images.MY_RESOURCES} alt="img" />
                     </div>
                     <div className={`${classes.res}`}>
                         <p >My Resources</p>
                         <p>0</p>
                     </div>
                     <div className={`${classes.side}`}>
-                        <img src={IMG} alt="" />
+                        <img src={images.DOUBLE_RIGHT_ARROW} alt="" />
                     </div>
                 </div>
                 <div className={`${classes.second}`}>
                     <div>
-                         <img src={IMG2} alt="img" />
+                         <img src={images.TOTAL_EARNINGS} alt="img" />
                     </div>
                     <div className={`${classes.res}`}>
                         <p >Total Earnings</p>
                         <p> $0</p>
                     </div>
                     <div className={`${classes.side}`}>
-                        <img src={IMG} alt="" />
+                        <img src={images.DOUBLE_RIGHT_ARROW} alt="" />
                     </div>
                     
                 </div>
                 </div>
                <div className={`${classes.firstRow}`}>
                <div className={`${classes.third}`}>
-                    <img src={IMG1} alt="img" />
+                    <img src={images.BALANCE} alt="img" />
                     <div className={`${classes.res}`}>
                         <p >Balance</p>
                         <p>$0</p>
                     </div>
                     <div className={`${classes.side}`}>
-                        <img src={IMG} alt="" />
+                        <img src={images.DOUBLE_RIGHT_ARROW} alt="" />
                     </div>
                 </div>
                 <div className={`${classes.fourth}`}>
-                    <img src={IMG4} alt="img" />
+                    <img src={images.LEARN_TO_EARN} alt="img" />
                     <div className={`${classes.res}`}>
                     <p >Learn how to earn</p>
                     </div>
                     <div className={`${classes.side}`}>
-                        <img src={IMG} alt="" />
+                        <img src={images.DOUBLE_RIGHT_ARROW} alt="" />
                     </div>
                     <div className={classes.additionalImage}>
-                        <img src={IMG6} alt="new image" />
+                        <img src={images.LEARN} alt="new image" />
                     </div>
                 </div>
                </div>
                 <div className={`${classes.firstRow}`}>
                 <div className={`${classes.fifth}`}>
-                    <img src={IMG5} alt="img" />
+                    <img src={images.CONFIGURATION} alt="img" />
                     <div className={`${classes.res}`}>
                     <p >Configuration</p>
                     </div>
                     <div className={`${classes.side}`}>
-                        <img src={IMG} alt="" />
+                        <img src={images.DOUBLE_RIGHT_ARROW} alt="" />
                     </div>
                 </div>
 
