@@ -39,6 +39,7 @@ import LEARN_TO_EARN from '../Assets/LEARN_TO_EARN.png';
 import DOUBLE_RIGHT_ARROW from '../Assets/DOUBLE_RIGHT_ARROW.png';
 import MY_RESOURCES from '../Assets/MY_RESOURCES.png';
 import BALANCE from '../Assets/BALANCE.png';
+import SETTINGS_ICON from '../Assets/setting-2.png';
 
 
 
@@ -86,6 +87,7 @@ export default {
     LEARN_TO_EARN,
     TOTAL_EARNINGS,
     CONFIGURATION,
-    BALANCE
+    BALANCE,
+    SETTINGS_ICON
 
 };
