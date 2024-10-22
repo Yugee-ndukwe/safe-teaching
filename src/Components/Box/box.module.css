@@ -136,7 +136,19 @@ border-radius: 13.86px 0px 0px 0px;
     background: #E6F4F9;
     padding: 10px 5px;
     margin: 15px;
+    position: relative;
 
+}
+
+.sideArrow{
+    /* display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-top: 20px; */
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 5px;
 }
 
 @media(max-width: 576px) {

@@ -25,54 +25,54 @@ export default function box(){
                         <p>0</p>
                     </div>
                     <div className={`${classes.side}`}>
-                        <img src={images.DOUBLE_RIGHT_ARROW} alt="" />
+                        <img src={images.DOUBLE_RIGHT_ARROW} alt=""icon />
                     </div>
                 </div>
                 <div className={`${classes.second}`}>
                     <div>
-                         <img src={images.TOTAL_EARNINGS} alt="img" />
+                         <img src={images.TOTAL_EARNINGS} alt="toal earnings" />
                     </div>
                     <div className={`${classes.res}`}>
                         <p >Total Earnings</p>
                         <p> $0</p>
                     </div>
                     <div className={`${classes.side}`}>
-                        <img src={images.DOUBLE_RIGHT_ARROW} alt="" />
+                        <img src={images.DOUBLE_RIGHT_ARROW} alt="icon" />
                     </div>
                     
                 </div>
                 </div>
                <div className={`${classes.firstRow}`}>
                <div className={`${classes.third}`}>
-                    <img src={images.BALANCE} alt="img" />
+                    <img src={images.BALANCE} alt="balance" />
                     <div className={`${classes.res}`}>
                         <p >Balance</p>
                         <p>$0</p>
                     </div>
                     <div className={`${classes.side}`}>
-                        <img src={images.DOUBLE_RIGHT_ARROW} alt="" />
+                        <img src={images.DOUBLE_RIGHT_ARROW} alt="icon" />
                     </div>
                 </div>
                 <div className={`${classes.fourth}`}>
-                    <img src={images.LEARN_TO_EARN} alt="img" />
+                    <img src={images.LEARN_TO_EARN} alt="learn" />
                     <div className={`${classes.res}`}>
                     <p >Learn how to earn</p>
                     </div>
-                    <div className={`${classes.side}`}>
-                        <img src={images.DOUBLE_RIGHT_ARROW} alt="" />
+                    <div className={`${classes.sideArrow}`}>
+                        <img src={images.DOUBLE_RIGHT_ARROW} alt="icon" />
                     </div>
                     <div className={classes.additionalImage}>
-                        <img src={images.LEARN} alt="new image" />
+                        <img src={images.LEARN} alt="learn" />
                     </div>
                 </div>
                </div>
                 <div className={`${classes.firstRow}`}>
                 <div className={`${classes.fifth}`}>
-                    <img src={images.CONFIGURATION} alt="img" />
+                    <img src={images.CONFIGURATION} alt="config" />
                     <div className={`${classes.res}`}>
                     <p >Configuration</p>
                     </div>
-                    <div className={`${classes.side}`}>
+                    <div className={`${classes.sideArrow}`}>
                         <img src={images.DOUBLE_RIGHT_ARROW} alt="" />
                     </div>
                 </div>

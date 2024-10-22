@@ -24,6 +24,11 @@
     width: 80%;
     margin: auto;
     padding: 0 20px;
+    /* width: 1008px; */
+/* height: 679px; */
+
+border-radius: 12px ;
+
 }
 
 .earningsHeader {
@@ -54,6 +59,7 @@
     align-items: center;
     gap: 10px; 
     margin-right: auto;
+    padding-left: 60px;
 }
 
 .date p {
@@ -65,7 +71,7 @@
 }
 
 .headerBtn {
-    margin-left: auto; /* Ensures it pushes the button to the far right */
+    margin-left: auto; 
 }
 
 .headerBtn button {
@@ -108,11 +114,13 @@
     }
     .earningsHeader{
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: start;
+
     }
 
     .headerBtn {
-        margin-right: auto; /* Ensures it pushes the button to the far right */
+        margin-right: auto; 
     }
 
 

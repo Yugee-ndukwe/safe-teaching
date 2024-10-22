@@ -25,9 +25,9 @@ export default function BookDetails() {
                     <span>(45)</span>
                     </div>
                     <h5 className={`${classes.price}`}>$350 <small>.00</small></h5>
-                    <p ><strong>Age Ranges:</strong> <span className={`${classes.ageRange}`}>0-8 12-16</span></p>
-                    <p><strong>Subject:</strong> <span className={`${classes.subject}`}>Government & Politics</span></p>
-                    <p className={`${classes.type}`}><strong>Type: Academics</strong></p>
+                    <p className={`${classes.age}`} ><strong>Age Ranges:</strong> <span className={`${classes.ageRange}`}>0-8 12-16</span></p>
+                    <p className={`${classes.bookSubject}`}><strong>Subject:</strong> <span className={`${classes.subject}`}>Government & Politics</span></p>
+                    <p className={`${classes.type}`}><strong className={`${classes.academics}`}>Type: Academics</strong></p>
                 </div>
                 <div className={`${classes.detailBtn}`}>
                     <button className={`${classes.backBtn}`}>
