@@ -10,6 +10,7 @@
     width: 1073px;
    
     margin: auto;
+    /* padding: 20px; */
     /* align-items: end; */
     /* justify-content: center; */
     /* align-items: center; */
@@ -37,6 +38,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 12px;
 }
 
 .bookHeader h1{
@@ -157,7 +159,7 @@
     height: 284px; */
     width: 249px;
     height: 284px;
-    margin: 0 5px 60px 10px;
+    margin: 12px 8px 60px 10px;
     /* padding: 12px; */
     border-radius: 16px;
     position: relative; 

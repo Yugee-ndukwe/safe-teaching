@@ -6,7 +6,13 @@ export default function Configuration(){
     return(
         <>
             <div className={`${classes.config}`}>
-                <h1> My Configuration</h1>
+                <div className={`${classes.configPage}`}>
+                    <p>My store</p>
+                    <img src={images.ARROW_RIGHT} alt="" />
+                    <p>My Configuration</p>
+                </div>
+               <div>
+               <h1> My Configuration</h1>
                 <div className={`${classes.setUser}`}>
                    <div className={`${classes.configTab}`}>
                    <div className={`${classes.userIcon}`}>
@@ -61,6 +67,7 @@ export default function Configuration(){
                         <input type="text" />
                     </label>
                 </form> */}
+               </div>
             </div>
         </>
     )

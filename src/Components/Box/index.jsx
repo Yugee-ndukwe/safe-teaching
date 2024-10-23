@@ -22,7 +22,7 @@ export default function box(){
                     </div>
                     <div className={`${classes.res}`}>
                         <p >My Resources</p>
-                        <p>0</p>
+                        <p className={`${classes.imagePrice}`}>0</p>
                     </div>
                     <div className={`${classes.side}`}>
                         <img src={images.DOUBLE_RIGHT_ARROW} alt=""icon />
@@ -34,7 +34,7 @@ export default function box(){
                     </div>
                     <div className={`${classes.res}`}>
                         <p >Total Earnings</p>
-                        <p> $0</p>
+                        <p className={`${classes.imagePrice}`}> $0</p>
                     </div>
                     <div className={`${classes.side}`}>
                         <img src={images.DOUBLE_RIGHT_ARROW} alt="icon" />
@@ -47,7 +47,7 @@ export default function box(){
                     <img src={images.BALANCE} alt="balance" />
                     <div className={`${classes.res}`}>
                         <p >Balance</p>
-                        <p>$0</p>
+                        <p className={`${classes.imagePrice}`}>$0</p>
                     </div>
                     <div className={`${classes.side}`}>
                         <img src={images.DOUBLE_RIGHT_ARROW} alt="icon" />

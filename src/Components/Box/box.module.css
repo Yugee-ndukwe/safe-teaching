@@ -41,6 +41,9 @@
     border-radius: 13.86px;
     /* opacity: 0px; */
      background: #E7E6F9;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
     
 
 }
@@ -61,6 +64,17 @@
     font-weight: 600;
     /* line-height: 49.92px; */
     text-align: center;
+    
+
+
+}
+
+.imagePrice{
+    font-family: Sora;
+    font-size: 41.57px;
+    font-weight: 600;
+    /* line-height: 49.92px; */
+    /* text-align: left; */
 
 }
 
