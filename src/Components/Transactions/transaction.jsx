@@ -28,7 +28,13 @@ export default function Transactions() {
         <>
             <div className={`${classes.transactionPage}`}>
                 <div className={`${classes.transactionHistory}`}>
+                <div className={`${classes.tPage}`}>
+                            <p>My store</p>
+                            <img src={images.ARROW_RIGHT} alt="" />
+                            <p>Earnings</p>
+                        </div>
                     <div className={`${classes.balanceData}`}>
+                       
                         <div className={`${classes.transactionHeader}`}>
                             <div className={`${classes.transactionLogo}`}>
                                 <div className={`${classes.logo}`}>
