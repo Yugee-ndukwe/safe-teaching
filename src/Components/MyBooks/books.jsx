@@ -8,7 +8,7 @@ export default function MyBooks() {
     const [clickedIndex, setClickedIndex] = useState(null);
     const [deleteBook, setDeleteBook] = useState(null);
     const [showModal, setShowModal] = useState(false);
-    const [openResources, setOpenResources] = useState(false)
+    const [openResources, setOpenResources] = useState(false);
 
     const navigate = useNavigate();
     const resourceRef = useRef(null);

@@ -50,6 +50,8 @@ border-radius: 12px ;
     align-items: center;
     width: 100%;
     padding: 20px; /* Add padding to give some space */
+    position: relative;
+
 }
 
 .totalLogo {
@@ -73,6 +75,7 @@ border-radius: 12px ;
     gap: 10px; 
     margin-right: auto;
     padding-left: 60px;
+    position: relative;
 }
 
 .date p {
@@ -83,8 +86,68 @@ border-radius: 12px ;
     text-align: left;
 }
 
+.dropdownYear{
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 156px;
+    height: 388px;
+    position: absolute;
+    left: 10%;
+    top: 33%;
+    background: #FFFFFF;
+    z-index: 1000;
+}
+
+.dropdownYear ul{
+    padding: 0;
+    margin: 0;
+}
+
+.dropdownYear ul li{
+    list-style: none;
+    padding: 7px 0;
+    font-family: Sora;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    cursor: pointer;
+}
+
+.dropdown{
+    position: absolute;
+    top: 100%;
+    right: 10px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 166px;
+    height: 398px;
+    background: #FFFFFF;
+    z-index: 1;
+    /* font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.07px;
+    text-align: left; */
+}
+
+.dropdown ul{
+    margin: 0;
+    padding: 0;
+}
+
 .dropdown ul li{
     list-style: none;
+    padding: 7px 0;
+    font-family: Sora;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    cursor: pointer;
+    
 }
 
 .headerBtn {
@@ -115,10 +178,12 @@ border-radius: 12px ;
 }
 
 .chart {
-    width: 1008px;
+    width: 100%;
     height: 679px;
-   
-  
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    padding: 20px;
     border-radius: 12px ;
    
     
@@ -127,6 +192,8 @@ border-radius: 12px ;
 .chart img{
     width: 100%;
 }
+
+
 
 
 @media(max-width: 576px) {
