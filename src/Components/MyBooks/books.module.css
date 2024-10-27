@@ -267,7 +267,7 @@
     font-size: 12px;
     font-weight: 400;
     line-height: 22px;
-    text-align: left;
+    /* text-align: left; */
 
     cursor: pointer;
 }
@@ -280,6 +280,14 @@
 
 .listToggler ul li img {
     margin-right: 25px;
+
+}
+
+.listToggler ul li .imgPreview{
+    width: 12px;
+    height: 8.50px;
+    border: 1.28px;
+ 
 
 }
 
