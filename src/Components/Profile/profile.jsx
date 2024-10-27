@@ -35,7 +35,7 @@ export default function Profile() {
                 </div>
 
                 <div className={`${classes.myProfile}`}>
-                    <div>
+                    <div className={`${classes.profilePix}`}>
                         <img src={profileImage} alt="profile" />
                     </div>
                     <div className={`${classes.profileBtn}`}>

@@ -50,6 +50,18 @@
     gap: 50px;
 }
 
+.profilePix{
+    width: 150px;
+    height: 150px;
+
+}
+
+.profilePix img{
+    width: 150px;
+    height: 150px;
+    border-radius: 113.25px;
+}
+
 .profileBtn{
     display: flex;
     align-items: center;
@@ -68,6 +80,7 @@
     font-weight: 600;
     line-height: 26px;
     text-align: left;
+    outline: 0;
 }
 
 .change{
@@ -189,13 +202,13 @@
     font-weight: 600;
     line-height: 26px;
     text-align: left;
-
-   
-    
-
 }
 
 @media(max-width: 567px) {
+    .pageContainer{
+        width: 100%;
+        padding: 10px;
+    }
     .pageIndi{
         margin-right: 0;
     }
@@ -220,14 +233,14 @@
     }
 
     .profileInfo input{
-        width: 300px;
+        width: 270px;
 
         padding: 0 5px;
        
     }
 
     .profileInfo textarea{
-        width: 300px;
+        width: 270px;
     }
 
     .copy{
@@ -237,14 +250,14 @@
     }
 
     .copy input{
-        width: 241px;
+        width: 221px;
         padding: 0 5px;
 
     }
 
     
 .copyImg{
-    width: 60px;
+    width: 50px;
 }
 
 .copyImg span{
