@@ -159,20 +159,23 @@
     height: 284px; */
     width: 249px;
     height: 284px;
-    margin: 12px 8px 60px 10px;
-    /* padding: 12px; */
+    /* margin: 12px 8px 60px 10px; */
+    padding: 40px 9px;
     border-radius: 16px;
     position: relative; 
 }
 
 .cardBody {
     background: #FFFFFF;
+    padding: 10px;
+    border-radius: 12px;
+
 }
 
-.cardTitle{
+/* .cardTitle{
     padding: 0 15px 15px 15px;
 
-}
+} */
 
 .cardTitle h4 {
     font-family: Sora;

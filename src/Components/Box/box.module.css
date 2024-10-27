@@ -88,7 +88,7 @@
 
 /* left: 350.23px;
 gap: 0px; */
-border-radius: 13.86px 0px 0px 0px;
+border-radius: 13.86px;
 /* opacity: 0px; */
 background: #F4E6EA;
 position: relative;
@@ -104,7 +104,7 @@ margin: 15px;
 
 /* top: 277.68px;
 gap: 0px; */
-border-radius: 13.86px 0px 0px 0px;
+border-radius: 13.86px;
 position: relative;
 /* opacity: 0px; */
 
@@ -135,7 +135,7 @@ position: relative;
     margin: 15px;
 
     /* gap: 0px; */
-    border-radius: 13.86px 0px 0px 0px;
+    border-radius: 13.86px;
     position: relative;
     /* opacity: 0px; */
     /* border: 4.91px solid #FFFFFF */  
@@ -154,7 +154,7 @@ position: relative;
     width: 315.23px;
     height: 247.68px;
     gap: 0px;
-    border-radius: 13.86px 0px 0px 0px;
+    border-radius: 13.86px;
     opacity: 0px;
     background: #E6F4F9;
     padding: 10px 5px;

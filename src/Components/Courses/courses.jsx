@@ -61,11 +61,14 @@ export default function MyCourses(){
         <>
             <div className={`${classes.courseList}`}>
                     <div className={`${classes.courseHeader}`}>
-                        <p>My store</p>
-                        <img src={IMAGES.ARROW_RIGHT} alt="icon" />
-                        <p>Learn how to earn</p>
+                        <div className={`${classes.coursePage}`}>
+                            <p>My store</p>
+                            <img src={IMAGES.ARROW_RIGHT} alt="icon" />
+                            <p>Learn how to earn</p>
+                        </div>
+                        <h2>List of courses</h2>
                     </div>
-                    <h2>List of courses</h2>
+                   
                     <div className={classes.courses}>
                   {course.map((course, i) => (
                     <div key={i} className={`${classes.courseCard}`}>

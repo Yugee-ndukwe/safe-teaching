@@ -40,6 +40,8 @@ import DOUBLE_RIGHT_ARROW from '../Assets/DOUBLE_RIGHT_ARROW.png';
 import MY_RESOURCES from '../Assets/MY_RESOURCES.png';
 import BALANCE from '../Assets/BALANCE.png';
 import SETTINGS_ICON from '../Assets/setting-2.png';
+import PROFILE_PIX from '../Assets/PROFILE_PIX.png';
+import COPY from '../Assets/copy_icon.png';
 
 
 
@@ -88,6 +90,8 @@ export default {
     TOTAL_EARNINGS,
     CONFIGURATION,
     BALANCE,
-    SETTINGS_ICON
+    SETTINGS_ICON,
+    PROFILE_PIX,
+    COPY
 
 };

@@ -7,19 +7,19 @@ export default function Transactions() {
         {
             type: 'Withdrawal',
             date: 'September 10, 2024',
-            amount: '$270.00',
+            amount: '- $270.00',
             logo: images.DOUBLE_ARROW,
         },
         {
             type: 'Withdrawal',
             date: 'September 10, 2024',
-            amount: '$270.00',
+            amount: '- $270.00',
             logo: images.DOUBLE_ARROW,
         },
         {
             type: 'Withdrawal',
             date: 'September 10, 2024',
-            amount: '$270.00',
+            amount: '- $270.00',
             logo: images.DOUBLE_ARROW,
         },
     ];
